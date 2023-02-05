@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Matheus Falconi</title>
+
+		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../generalStyle.css">
+		
+		<!--Google Fonts-->	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Inter&family=Poppins&display=swap" rel="stylesheet">
+
+		<!--Google Icons-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+		<script type="text/javascript" language="javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/script.js"></script>
+		<script type="text/javascript" src="../js/smothScroll.js"></script>
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	  	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	   	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	   	<![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<div class="div_logo">
+				<p class="logo">MF</p>
+			</div>
+
+			<nav>
+				<ul class="list_links">
+					<a href="#section_home"><li class="item_links">
+						<p><span class="number_link">01.</span> Home</p>
+					</li></a>
+
+					<a href="#section_sobre"><li class="item_links">
+						<p><span class="number_link">02.</span> About</p>
+					</li></a>
+
+					<a href="#section_conhecimentos"><li class="item_links">
+						<p><span class="number_link">03.</span> Knowledges</p>
+					</li></a>
+
+					<a href="#section_servicos"><li class="item_links">
+						<p><span class="number_link">04.</span> Services</p>
+					</li></a>
+
+					<a href="#section_projetos"><li class="item_links">
+						<p><span class="number_link">05.</span> Projects</p>
+					</li></a>
+				</ul>
+
+				<div class="button_contact">
+					<p>Contact</p>
+				</div>
+
+				<div class="div_translate">
+					<span class="material-symbols-outlined" onclick="openLanguage()">translate</span>
+
+					<div id="choice_language" class="hidden">
+						<a href="../pt/index.html"><p>PT-BR</p></a>
+						<a href="../en/index.html"><p>EN-US</p></a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section id="section_home">
+				<div class="div_text_home">
+					<p class="text_home">Hello, my name is</p>
+					<p class="title_home">Matheus Falconi</p>
+					<p class="desc_home">Helping companies to stand out in the market in a <span class="orange_text">professional, modern</span> and <span class="orange_text">high-quality.</span> way</p>
+				</div>
+
+				<div class="div_img_home">
+					<p><span><</span><span>/></span><p>
+				</div>
+			</section>
+
+			<section id="section_sobre">
+				<div class="div_title_section">
+					<h2>-- About Me --</h2>
+
+					<div class="div_citacao_sobre">
+						<p>"Everything good requires patience."</p>
+						<p>~ Gepetto</p>
+					</div>
+				</div>
+
+				<div class="div_content_sobre">
+					<div class="div_img_sobre">
+						<img src="https://avatars.githubusercontent.com/u/33550514?v=4">
+					</div>
+
+					<div class="div_text_sobre">
+						<p>Front-End Developer, specialist in HTML/CSS and Responsive Design, with solid knowledge in Javascript and good experience with Vue.</p>
+
+						<p>Social Media Design, active in creating visual identity, managing social networks, planning content, analyzing results, creating art and content.</p>
+
+						<p>I practice my area of passion, and I'm always in constant learning, getting to know new technologies and applying them in personal projects.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="section_conhecimentos">
+				<div class="div_title_section">
+					<h2>-- Knowledges --</h2>
+				</div>
+
+				<ul class="list_conhecimentos">
+					<li class="item_conhecimentos">HTML</li>
+					<li class="item_conhecimentos">CSS</li>
+					<li class="item_conhecimentos">Sass</li>
+					<li class="item_conhecimentos">Responsive Desing</li>
+					<li class="item_conhecimentos">JavaScpript</li>
+					<li class="item_conhecimentos">Vue Js</li>
+					<li class="item_conhecimentos">PHP</li>
+					<li class="item_conhecimentos">SQL</li>
+
+					<li class="item_conhecimentos">Photoshop</li>
+					<li class="item_conhecimentos">Illustrator</li>
+					<li class="item_conhecimentos">Figma</li>
+					<li class="item_conhecimentos">Canva</li>
+				</ul>
+			</section>
+
+			<section id="section_servicos">
+				<div class="div_title_section">
+					<h2>-- Marketing Solutions --</h2>
+				</div>
+
+				<div class="div_content_servicos">
+					<div class="list_servicos_esq">
+						<p id="pwebsite" class="orange_text" onmouseover="hiddeService('swebsite')">Web Site</p>
+						<p id="planding" onmouseover="hiddeService('slanding')">Landing Page</p>
+						<p id="psocial" onmouseover="hiddeService('ssocial')">Design Social Media</p>
+						<p id="pidvisual" onmouseover="hiddeService('sidvisual')">Visual Identity</p>
+					</div>
+
+					<div class="list_servicos_dir">
+						<div class="item_servico" id="servico_website">
+							<div class="title_servico">
+								<span class="material-symbols-outlined">devices</span>
+
+								<p>Web Site</p>
+							</div>
+							
+							<div class="desc_servico">
+								<p>I create your website in a personalized way, so that it comes out the way you want. The layout and features are made responsive and according to your needs.</p>
+
+								<p class="title_desc_servico">Do I need a website for my business?</p>
+
+								<p>Having a website is important for you who need to show your company to the world in an attractive and functional way.</p>
+							</div>
+						</div>
+
+						<div class="item_servico hidden" id="servico_landing">
+							<div class="title_servico">
+								<span class="material-symbols-outlined">flight_land</span>
+
+								<p>Landing Page</p>
+							</div>
+
+							<div class="desc_servico">
+								<p>I create your landing page in a personalized way, so that it comes out the way you want. The layout and features are made responsive and according to your needs.</p>
+
+								<p class="title_desc_servico">Do I need a landing page for my business?</p>
+
+								<p>Having a landing page is important for you, who need to convert your potential customer into a customer, in an attractive and functional way.</p>
+							</div>
+						</div>
+
+						<div class="item_servico hidden" id="servico_social">
+							<div class="title_servico">
+								<span class="material-symbols-outlined img_servico">design_services</span>
+
+								<p>Design Social Media</p>
+							</div>
+
+							<div class="desc_servico">
+								<p>I do all the management of your social networks, from creating and customizing your profile to creating content to be shared with your audience.</p>
+
+								<p class="title_desc_servico">In which social networks is it important to be present?</p>
+
+								<p>It's important to understand which social networks are ideal for your business and always be present on them. We also assist in this process.</p>
+							</div>
+						</div>
+
+						<div class="item_servico hidden" id="servico_idvisual">
+							<div class="title_servico">
+								<span class="material-symbols-outlined">badge</span>
+
+								<p>Visual Identity</p>
+							</div>
+							
+							<div class="desc_servico">
+								<p>I create the visual identity of your brand in a conceptual, attractive, professional and commercial way. All use of fonts and colors is based on research into all aspects of your industry.</p>
+
+								<p class="title_desc_servico">Do I need a visual identity?</p>
+
+								<p>One of the main reasons for creating a visual identity is that with it, it is possible to visually and practically define who your company is.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section_projetos">
+				<div class="div_title_section">
+					<h2>-- My Projects --</h2>
+				</div>
+
+				<div class="div_content_projetos">
+					<div class="list_projetos">
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+
+						<div class="item_projeto">
+							<div class="img_projeto"></div>
+
+							<div class="div_title_projeto" id="project_timer">
+								<p class="title_projeto">Teste</p>
+								<span class="material-symbols-outlined">expand_less</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer></footer>
+	</body>
+</html>

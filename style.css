@@ -1,0 +1,439 @@
+.orange_text {
+	color: orange;
+}
+
+.hidden {
+	display: none;
+}
+
+.div_title_section {
+	width: 100%;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+body {
+	background-color: #0D1117;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	width: 100%;
+	padding: 0 150px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	position: fixed;
+	background-color: rgba(22, 27, 34);
+	animation: surgirCima 1.5s;
+}
+
+.div_logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+.logo {
+	cursor: pointer;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+.logo:hover {
+	color: orange;
+	transition: .3s;
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	column-gap: 30px;
+	font-family: 'Inter', sans-serif;
+}
+
+.list_links {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+
+.list_links > a {
+	color: white;
+}
+
+.item_links {
+	padding: 20px 20px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	border-bottom: 1px solid #161B22;
+	font-size: 0.825em;
+	overflow-x: hidden;
+}
+
+.item_links:hover {
+	color: orange;
+	border-bottom: 1px solid orange;
+	transition: .3s;
+}
+
+.number_link {
+	color: orange;
+}
+
+.button_contact {
+	margin: 10px 0;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	border: 2px solid orange;
+	border-radius: 5px;
+	cursor: pointer;
+	color: orange;
+	font-size: 0.825em;
+}
+
+.button_contact:hover {
+	background-color: rgba(255, 165, 0, .3);
+	transition: .3s;
+}
+
+.div_translate {
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.div_translate > span {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: orange;
+
+}
+
+.div_translate > span:hover {
+	border: 1px solid orange;
+	border-radius: 5px;
+}
+
+#choice_language {
+	width: 80px;
+	padding: 10px;
+	margin-top: 134px;
+	position: absolute;
+	text-align: center;
+	background-color: rgb(22, 27, 34);
+}
+
+#choice_language :first-child {
+	margin-bottom: 10px;
+}
+
+#choice_language > a {
+	color: white;
+}
+
+#choice_language > a:hover {
+	color: orange;
+}
+
+/**/
+
+#section_home {
+	height: 100vh;
+	padding: 0 150px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div_text_home {
+	width: 600px;
+	animation: surgirEsquerda 1.5s;
+}
+
+.text_home {
+	margin-bottom: -10px;
+	font-size: 1.5em;
+	color: orange;
+}
+
+.title_home {
+	margin-bottom: 20px;
+	font-size: 5em;
+	font-family: 'Anton', sans-serif;
+}
+
+.desc_home {
+	width: 420px;
+	font-size: 1.225em;
+}
+
+.desc_home > span {
+	font-size: 1em;
+}
+
+.div_img_home {
+	width: 400px;
+	text-align: center;
+	animation: surgirDireita 1.5s;
+}
+
+.div_img_home > p {
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 15em;
+	color: orange;
+	letter-spacing: .1px;
+}
+
+/**/
+
+#section_sobre {
+	width: 100%;
+	padding: 50px 150px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.div_citacao_sobre {
+	font-size: 0.825em;
+}
+
+.div_content_sobre {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 80px;
+}
+
+.div_text_sobre {
+	width: 650px;
+}
+
+.div_text_sobre > p  {
+	margin-bottom: 10px;
+}
+
+.div_img_sobre {
+	border: 1px solid #0D1117;
+	padding: 50px;
+}
+
+.div_img_sobre:hover {
+	border: 1px solid white;
+	border-radius: 15px;
+	transition: .5s
+}
+
+.div_img_sobre > img {
+	border-radius: 15px;
+}
+
+/**/
+
+#section_conhecimentos {
+	width: 100%;
+	padding: 50px 150px;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.list_conhecimentos {
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 40px;
+}
+
+.item_conhecimentos {
+	width: 150px;
+	height: 80px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	background-color: #0D1117;
+	border-radius: 15px 0 15px 15px;
+}
+
+.item_conhecimentos:hover {
+	border: 1px solid #0D1117;
+	background: none;
+	color: black;
+	transition: background .3s;
+}
+
+/**/
+
+#section_servicos {
+	width: 100%;
+	padding: 50px 150px;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.div_content_servicos {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.list_servicos_esq {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.list_servicos_esq > p {
+	width: 250px;
+	padding: 30px 0;
+	background-color: #0D1117;
+	color: white;
+	text-align: center;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 10px 0 0 10px;
+}
+
+.list_servicos_esq > p:hover {
+	color: orange;
+	transition: .3s;
+}
+
+.list_servicos_dir {
+	width: 100%;
+	padding: 25px;
+	background-color: #0D1117;
+	color: white;
+	border-radius: 0 10px 10px 0;
+}
+
+.title_servico {
+	width: 220px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.title_servico > span {
+	font-size: 2.5em;
+}
+
+.title_servico > p {
+	font-size: 1.225em;
+}
+
+.desc_servico {
+}
+
+.title_desc_servico {
+	margin: 10px 0;
+	color: orange;
+}
+
+/**/
+
+#section_projetos {
+	width: 100%;
+	padding: 50px 150px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.div_content_projetos {
+	width: 100%;
+}
+
+.list_projetos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 30px;
+}
+
+.item_projeto {
+	width: 500px;
+	height: 300px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.div_title_projeto {
+	width: 100%;
+	height: 250px;
+	margin-top: 230px;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.div_title_projeto {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 15px 20px;
+}
+
+.title_projeto {
+	color: black;
+	font-size: 1.5em;
+}
+
+.div_title_projeto > span {
+	color: black;
+	font-size: 2em;
+}
+
+/**/
+
+@keyframes surgirEsquerda {
+	from {
+		transform: translateX(-1000px);
+	}
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes surgirDireita {
+	from {
+		transform: translateX(1000px);
+	} 
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes surgirCima {
+	from {
+		transform: translateY(-200px);
+	}
+
+	to {
+		transform: translateY(0px);
+	}
+}
