@@ -7,8 +7,8 @@
 
 		<title>Matheus Falconi</title>
 
-		<link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="../generalStyle.css">
+		<link rel="stylesheet" href="../css/styleIndex.css">
+		<link rel="stylesheet" href="../css/generalStyle.css">
 		
 		<!--Google Fonts-->	
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +21,7 @@
 		<script type="text/javascript" language="javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/script.js"></script>
 		<script type="text/javascript" src="../js/smothScroll.js"></script>
+        <script type="text/javascript" src="../js/toggleMenu.js"></script>
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,290 +33,291 @@
 
 	<body>
 		<header>
-			<div class="div_logo">
-				<p class="logo">MF</p>
-			</div>
-
-			<nav>
-				<ul class="list_links">
-					<a href="#section_home"><li class="item_links">
-						<p><span class="number_link">01.</span> Início</p>
-					</li></a>
-
-					<a href="#section_sobre"><li class="item_links">
-						<p><span class="number_link">02.</span> Sobre</p>
-					</li></a>
-
-					<a href="#section_conhecimentos"><li class="item_links">
-						<p><span class="number_link">03.</span> Conhecimentos</p>
-					</li></a>
-
-					<a href="#section_servicos"><li class="item_links">
-						<p><span class="number_link">04.</span> Serviços</p>
-					</li></a>
-
-					<a href="#section_projetos"><li class="item_links">
-						<p><span class="number_link">05.</span> Projetos</p>
-					</li></a>
-				</ul>
-
-				<div class="button_contact">
-					<p>Contato</p>
+			<div id="div-header">
+				<div class="div-logo">
+					<p class="logo">MF</p>
 				</div>
 
-				<div class="div_translate">
-					<span class="material-symbols-outlined" onclick="openLanguage()">translate</span>
+				<nav>
+					<div>
+						<ul class="list-links">
+							<a href="#section-home"><li class="item-links">
+								<p><span class="number-link">01.</span> Início</p>
+							</li></a>
 
-					<div id="choice_language" class="hidden">
-						<a href="../pt/index.html"><p>PT-BR</p></a>
-						<a href="../en/index.html"><p>EN-US</p></a>
+							<a href="#section-sobre"><li class="item-links">
+								<p><span class="number-link">02.</span> Sobre</p>
+							</li></a>
+
+							<a href="#section-servicos"><li class="item-links">
+								<p><span class="number-link">03.</span> Serviços</p>
+							</li></a>
+
+							<a href="#section-projetos"><li class="item-links">
+								<p><span class="number-link">04.</span> Projetos</p>
+							</li></a>
+						</ul>
+
+						<a href="https://wa.me/+5531999456108" target="_blank" class="button-contact">
+							<p>Contato</p>
+						</a>
 					</div>
-				</div>
-			</nav>
+
+					<div class="div-translate">
+						<span class="material-symbols-outlined" onclick="openLanguage()">translate</span>
+
+						<div id="choice-language" class="hidden">
+							<a href="../pt/index.html"><p>PT-BR</p></a>
+							<a href="../en/index.html"><p>EN-US</p></a>
+						</div>
+					</div>
+				</nav>
+			</div>
 		</header>
 
 		<main>
-			<section id="section_home">
-				<div class="div_text_home">
-					<p class="text_home">Olá, me chamo</p>
-					<p class="title_home">Matheus Falconi</p>
-					<p class="desc_home">Ajudando empresas a se destacarem no mercado de forma <span class="orange_text">profissional, moderna</span> e com <span class="orange_text">alta qualidade.</span></p>
-				</div>
-
-				<div class="div_img_home">
-					<p><span><</span><span>/></span><p>
-				</div>
-			</section>
-
-			<section id="section_sobre">
-				<div class="div_title_section">
-					<h2>-- Sobre Mim --</h2>
-
-					<div class="div_citacao_sobre">
-						<p>"Tudo que é bom, requer paciência."</p>
-						<p>~ Gepetto</p>
-					</div>
-				</div>
-
-				<div class="div_content_sobre">
-					<div class="div_img_sobre">
-						<img src="https://avatars.githubusercontent.com/u/33550514?v=4">
+			<section id="section-home">
+				<div id="div-home">
+					<div class="div-text-home">
+						<p class="text-home">Olá, me chamo</p>
+						<p class="title-home">Matheus Falconi</p>
+						<p class="desc-home">Ajudando empresas a se destacarem no mercado de forma <span class="orange-text">profissional, moderna</span> e com <span class="orange-text">alta qualidade.</span></p>
 					</div>
 
-					<div class="div_text_sobre">
-						<p>Desenvolvedor Front-End, especialista em HTML/CSS e Responsive Design, com sólidos conhecimentos em Javascript e boa experiência com Vue.</p>
-
-						<p>Design Social Media, atuante na criação de identidade visual, gerenciamento de redes sociais, planejamento de conteúdo, análise de resultados, criação de artes e conteúdos.</p>
-
-						<p>Pratico a minha área de paixão, e estou sempre em constante aprendizado, conhecendo novas técnologias e aplicando-as em projetos pessoais.</p>
+					<div class="div-img-home">
+						<p><span><</span><span>/></span></p>
 					</div>
 				</div>
 			</section>
 
-			<section id="section_conhecimentos">
-				<div class="div_title_section">
-					<h2>-- Conhecimentos --</h2>
-				</div>
+			<section id="section-sobre">
+				<div id="div-sobre">
+					<div class="div-title-section">
+						<h2>< Sobre Mim /></h2>
 
-				<ul class="list_conhecimentos">
-					<li class="item_conhecimentos">HTML</li>
-					<li class="item_conhecimentos">CSS</li>
-					<li class="item_conhecimentos">Sass</li>
-					<li class="item_conhecimentos">Desing Responsivo</li>
-					<li class="item_conhecimentos">JavaScpript</li>
-					<li class="item_conhecimentos">Vue Js</li>
-					<li class="item_conhecimentos">PHP</li>
-					<li class="item_conhecimentos">SQL</li>
-
-					<li class="item_conhecimentos">Photoshop</li>
-					<li class="item_conhecimentos">Illustrator</li>
-					<li class="item_conhecimentos">Figma</li>
-					<li class="item_conhecimentos">Canva</li>
-				</ul>
-			</section>
-
-			<section id="section_servicos">
-				<div class="div_title_section">
-					<h2>-- Soluções em Marketing --</h2>
-				</div>
-
-				<div class="div_content_servicos">
-					<div class="list_servicos_esq">
-						<p id="pwebsite" class="orange_text" onmouseover="hiddeService('swebsite')">Web Site</p>
-						<p id="planding" onmouseover="hiddeService('slanding')">Landing Page</p>
-						<p id="psocial" onmouseover="hiddeService('ssocial')">Design Social Media</p>
-						<p id="pidvisual" onmouseover="hiddeService('sidvisual')">Identidade Visual</p>
+						<div class="div-citacao-sobre">
+							<p>"Tudo que é bom, requer paciência."</p>
+							<p>~ Gepetto</p>
+						</div>
 					</div>
 
-					<div class="list_servicos_dir">
-						<div class="item_servico" id="servico_website">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">devices</span>
+					<div class="div-content-sobre">
+						<div class="div-img-sobre">
+							<img src="https://avatars.githubusercontent.com/u/33550514?v=4">
+						</div>
 
-								<p>Web Site</p>
+						<div class="div-text-sobre">
+							<div class="text-sobre">
+								<p>Desenvolvedor Front-End, especialista em HTML/CSS e Responsive Design, com sólidos conhecimentos em Javascript e boa experiência com Vue.</p>
+
+								<p>Design Social Media, atuante na criação de identidade visual, gerenciamento de redes sociais, planejamento de conteúdo, análise de resultados, criação de artes e conteúdos.</p>
+
+								<p>Pratico a minha área de paixão, e estou sempre em constante aprendizado, conhecendo novas técnologias e aplicando-as em projetos pessoais.</p>
 							</div>
-							
-							<div class="desc_servico">
+
+							<div class="button-sobre">
+								<a href="https://wa.me/+5531999456108" target="_blank"><button>Entre em Contato Comigo!</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-vantagens">
+				<div class="div-title-section">
+					<h2>< Diferenciais /></h2>
+
+					<div class="div-citacao-sobre">
+						<p>Mimando os clientes!</p>
+					</div>
+				</div>
+
+				<div class="div-content-vantagens">
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">design_services</span>
+
+						<p>Design Original</p>
+					</div>
+
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">devices</span>
+
+						<p>Responsividade e Usabilidade</p>
+					</div>
+
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">social_leaderboard</span>
+
+						<p>Foco na Qualidade</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-servicos">
+				<div id="div-servicos">
+					<div class="div-title-section">
+						<h2>< Soluções em Marketing /></h2>
+
+						<div class="div-citacao-sobre">
+							<p>Conheça os serviços prestados!</p>
+						</div>
+					</div>
+
+					<div class="div-content-servicos">
+						<div class="item-servicos">
+							<div class="text-item-servico">
+								<p class="title-item">Web Sites</p>
+
 								<p>Faço a criação do seu site de forma personalizada, para que ele saia do jeitinho que você quer. O layout e as funcionalidades são feitas de forma responsiva e de acordo com as suas necessidades.</p>
 
-								<p class="title_desc_servico">Preciso de um site para minha empresa?</p>
+								<p class="orange-text">Preciso de um site pra minha empresa?</p>
 
 								<p>Ter um site é importante pra você que precisa mostrar sua empresa para o mundo de forma atrativa e funcional.</p>
+
+								<p class="orange-text">Quer saber mais sobre os meus serviços?</p>
+
+								<p>Você pode optar por enviar um e-mail para: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> ou clique no botão abaixo:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Solicite Já o Seu Orçamento!
+									</a>
+								</div>
 							</div>
+
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-servico">
+								<img src="../galeria/site-arawauka1.png">
+							</div></a>
 						</div>
 
-						<div class="item_servico hidden" id="servico_landing">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">flight_land</span>
+						<div class="div-line">
+							<div class="line"></div>
+						</div>
 
-								<p>Landing Page</p>
-							</div>
+						<div class="item-servicos">
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-servico">
+								<img src="../galeria/landing-page1.png">
+							</div></a>
 
-							<div class="desc_servico">
+							<div class="text-item-servico">
+								<p class="title-item">Landing Page</p>
+
 								<p>Faço a criação da sua landing page de forma personalizada, para que ela saia do jeitinho que você quer. O layout e as funcionalidades são feitas de forma responsiva e de acordo com as suas necessidades.</p>
 
-								<p class="title_desc_servico">Preciso de uma landing page para minha empresa?</p>
+								<p class="orange-text">Preciso de uma landing page pra minha empresa?</p>
 
-								<p>Ter uma landing page é importante pra você que precisa fazer a conversão do seu possível cliente em cliente, de uma forma atrativa e funcional.</p>
+								<p>Ter uma landing page é importante pra você que precisa fazer a conversão do seu possível cliente (o seu Lead) em cliente, de uma forma atrativa e funcional.</p>
+
+								<p class="orange-text">Quer saber mais sobre os meus serviços?</p>
+
+								<p>Você pode optar por enviar um e-mail para: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> ou clique no botão abaixo:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Solicite Já o Seu Orçamento!
+									</a>
+								</div>
 							</div>
 						</div>
 
-						<div class="item_servico hidden" id="servico_social">
-							<div class="title_servico">
-								<span class="material-symbols-outlined img_servico">design_services</span>
+						<div class="div-line">
+							<div class="line"></div>
+						</div>
 
-								<p>Design Social Media</p>
-							</div>
+						<div class="item-servicos">
+							<div class="text-item-servico">
+								<p class="title-item">Designer Social Media</p>
 
-							<div class="desc_servico">
-								<p>Faço toda a gestão das suas redes sociais, desde a criação e personalização do perfil até a criação do conteúdo para ser compartilhado com o seu público.</p>
+								<p>Faço toda a gestão das suas redes sociais. Estudos de mercado, concorrência e tendências de acordo com o seu nicho; Criação e personalização do perfil; Criação do conteúdo para ser compartilhado com o seu público.</p>
 
-								<p class="title_desc_servico">Em quais redes sociais é importante estar presente?</p>
+								<p class="orange-text">Em quais redes sociais é importante estar presente?</p>
 
 								<p>É importante entender quais são as redes sociais ideais para o seu negócio e estar sempre presente nelas. Também auxiliamos nesse processo.</p>
+
+								<p class="orange-text">Quer saber mais sobre os meus serviços?</p>
+
+								<p>Você pode optar por enviar um e-mail para: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> ou clique no botão abaixo:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Solicite Já o Seu Orçamento!
+									</a>
+								</div>
+							</div>
+
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-dsocialmedia">
+								<img src="../galeria/post-1.png">
+								<img src="../galeria/post-2.png">
+								<img src="../galeria/post-3.png">
+								<img src="../galeria/post-4.png">
+							</div></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-projetos">
+				<div id="div-projetos">
+					<div class="div-title-section">
+						<h2>< Conheça os Meus Projetos /></h2>
+
+						<div class="div-citacao-sobre">
+							<p>Um pouco mais do meu trabalho!</p>
+						</div>
+					</div>
+
+					<div class="div-list-projetos">
+						<div class="div-sites">
+							<div class="title-projetos">
+								<p class="title-item">Web Sites</p>
+							</div>
+
+							<div class="list-projetos">
+								<a href="https://matheuspfalconi.github.io/Site_Agencia_Spotlight/" target="_blank"><img src="../galeria/site-spotlight.png"></a>
+
+								<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><img src="../galeria/site-arawauka.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Advocacy" target="_blank"><img src="../galeria/site-advocacia.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Galleria" target="_blank"><img src="../galeria/site-galleria.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Cotemig" target="_blank"><img src="../galeria/site-cotemig.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Alura" target="_blank"><img src="../galeria/site-alura.png"></a>
 							</div>
 						</div>
 
-						<div class="item_servico hidden" id="servico_idvisual">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">badge</span>
-
-								<p>Identidade Visual</p>
+						<div class="div-landing">
+							<div class="title-projetos">
+								<p class="title-item">Landing Pages</p>
 							</div>
-							
-							<div class="desc_servico">
-								<p>Faço a criação da identidade visual da sua marca de forma conceitual, atrativa, profissional e comercial. Toda a utilização de fontes e cores é baseada em uma pesquisa sobre todos os aspectos do seu segmento.</p>
 
-								<p class="title_desc_servico">Preciso de uma identidade visual?</p>
+							<div class="list-projetos">
+								<a href="https://matheuspfalconi.github.io/Landing_Page_Travel_Blog/" target="_blank"><img src="../galeria/landing-page1.png"></a>
 
-								<p>Um dos principais motivos para a criação de uma identidade visual é que com ela, é possível definir de forma visual e prática quem é a sua empresa.</p>
+								<a href="https://github.com/matheuspfalconi/Landing_Page_Cursos_On" target="_blank"><img src="../galeria/landing-page2.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Clone_Landing_Page_Shopify" target="_blank"><img src="../galeria/landing-page3.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Landing_Page_Black_Friday" target="_blank"><img src="../galeria/landing-page4.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Login_Page_Sunset" target="_blank"><img src="../galeria/landing-page5.png"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section id="section_projetos">
-				<div class="div_title_section">
-					<h2>-- Meus Projetos --</h2>
-				</div>
-
-				<div class="div_content_projetos">
-					<div class="list_projetos">
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<div id="whatsapp-button">
+				<a href="https://wa.me/+5531999456108" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"></a>
+			</div>
 		</main>
 
-		<footer></footer>
+		<footer>
+			<div class="dev">
+				<p>©2023 - MATHEUS FALCONI</p>
+				<p>DESENVOLVIDO POR <a href="https://github.com/matheuspfalconi" target="_blank">MATHEUS FALCONI ❤</a></p>
+			</div>
+		</footer>
 	</body>
 </html>
