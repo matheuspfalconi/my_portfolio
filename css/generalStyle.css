@@ -1,0 +1,108 @@
+/*===================================Fontes===================================*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Poppins:wght@300&display=swap');
+
+
+/*===================================Estilos Gerais===================================*/
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body, p, h1, h2, ul, li, blockquote {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background-size: 100%;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {box-sizing:border-box;}
+
+li {
+	list-style: none;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.825em;
+}
+
+h3 {
+	font-size: 1.250em;
+}
+
+span {
+	font-size: 0.8em;
+}
+
+input, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.orange-text {
+	color: orange;
+}
+
+.hidden {
+	display: none;
+}
+
+.div-title-section {
+	width: 100%;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+
+.title-item {
+	font-size: 1.225em;
+	font-family: 'Anton', sans-serif;
+}
+
+.div-line {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.line {
+	width: 30%;
+	border: 1px solid darkgray;
+}
+
+.show {
+	display: block !important;
+}

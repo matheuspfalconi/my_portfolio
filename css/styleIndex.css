@@ -1,0 +1,585 @@
+/*Cabeçalho*/
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	background-color: rgba(22, 27, 34);
+}
+
+#div-header {
+	width: 100%;
+	max-width: 1080px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.div-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+.logo {
+	cursor: pointer;
+	color: white;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+.logo:hover {
+	color: orange;
+	transition: .3s;
+}
+
+nav, nav > div {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	column-gap: 30px;
+	font-family: 'Inter', sans-serif;
+}
+
+.list-links {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+
+.list-links > a {
+	color: white;
+}
+
+.item-links {
+	padding: 20px 20px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	border-bottom: 1px solid #161B22;
+	font-size: 0.825em;
+	overflow-x: hidden;
+}
+
+.item-links:hover {
+	color: orange;
+	border-bottom: 1px solid orange;
+	transition: .3s;
+}
+
+.number-link {
+	color: orange;
+}
+
+.button-contact {
+	margin: 10px 0;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	border: 2px solid orange;
+	border-radius: 5px;
+	cursor: pointer;
+	color: orange;
+	font-size: 0.825em;
+}
+
+.button-contact:hover {
+	background-color: rgba(255, 165, 0, .3);
+	transition: .3s;
+}
+
+.div-translate {
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.div-translate > span {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: orange;
+
+}
+
+.div-translate > span:hover {
+	border: 1px solid orange;
+	border-radius: 5px;
+}
+
+#choice-language {
+	width: 80px;
+	padding: 10px;
+	margin-top: 134px;
+	position: absolute;
+	text-align: center;
+	background-color: rgb(22, 27, 34);
+}
+
+#choice-language :first-child {
+	margin-bottom: 10px;
+}
+
+#choice-language > a {
+	color: white;
+}
+
+#choice-language > a:hover {
+	color: orange;
+}
+
+/**/
+
+#section-home {
+	height: 100vh;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #0D1117;
+}
+
+#div-home {
+	width: 100%;
+	max-width: 1080px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.div-text-home {
+	width: 600px;
+}
+
+.text-home {
+	margin-bottom: -10px;
+	font-size: 1.5em;
+	color: orange;
+}
+
+.title-home {
+	margin-bottom: 20px;
+	font-size: 5em;
+	font-family: 'Anton', sans-serif;
+}
+
+.desc-home {
+	width: 100%;
+	max-width: 420px;
+	font-size: 1.225em;
+}
+
+.desc-home > span {
+	font-size: 1em;
+}
+
+.div-img-home {
+	width: 400px;
+	text-align: center;
+}
+
+.div-img-home > p {
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 15em;
+	color: orange;
+	letter-spacing: .1px;
+}
+
+/**/
+
+#section-sobre, #section-vantagens, #section-servicos, #section-projetos {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#div-sobre, #div-servicos, #div-projetos {
+	width: 100%;
+	max-width: 1080px;
+	padding: 50px 0;
+}
+
+/**/
+
+.div-citacao-sobre {
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+.div-content-sobre {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 80px;
+}
+
+.div-img-sobre > img {
+	width: 100%;
+	max-width: 250px;
+	border-radius: 100%;
+	box-shadow: 0px 0px 15px darkgray;
+}
+
+.div-img-sobre > img:hover {
+	box-shadow: 0px 0px 15px black
+}
+
+.div-text-sobre {
+	width: 100%;
+	max-width: 650px;
+}
+
+.text-sobre > p  {
+	margin-bottom: 10px;
+}
+
+.button-sobre {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.button-sobre button {
+	width: 100%;
+	max-width: 250px;
+	height: 35px;
+	background-color: orange;
+	border: 2px solid orange;
+	color: #0D1117;
+	border-radius: 15px 0 15px 0;
+	font-size: 0.825em;
+	cursor: pointer;
+}
+
+.button-sobre button:hover {
+	background: none;
+	transition: background .3s;
+}
+
+/**/
+
+#section-vantagens {
+	color: white;
+	padding: 50px 0;
+	background-color: #0D1117;
+}
+
+.div-content-vantagens {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	column-gap: 30px;
+}
+
+.item-vantagens {
+	width: 100%;
+	max-width: 220px;
+	height: 150px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.item-vantagens > span {
+	font-size: 4em;
+}
+
+/**/
+
+.div-content-servicos > div + div {
+	margin-top: 50px;
+}
+
+.item-servicos {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 90px;
+}
+
+.text-item-servico > p + p {
+	margin-top: 10px;
+}
+
+.div-button-servico {
+	margin-top: 20px;
+
+}
+
+.button-servico {
+	width: 100%;
+	height: 35px;
+	padding: 5px 15px;
+	background-color: orange;
+	border: 2px solid orange;
+	color: #0D1117;
+	border-radius: 15px 0 15px 0;
+	font-size: 0.825em;
+	cursor: pointer;
+}
+
+.button-servico:hover {
+	background: none;
+	transition: background .3s;
+}
+
+.div-img-servico {
+	width: 400px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.div-img-servico > img {
+	width: 100%;
+	border-radius: 10px;
+	border: 2px dashed black;
+	box-shadow: 0 0 5px darkgray;
+}
+
+.div-img-servico > img:hover {
+	width: 101%;
+	box-shadow: 0 0 10px black;
+	transition: .3s;
+}
+
+.div-img-dsocialmedia {
+	width: 100%;
+	max-width: 400px;
+	height: 300px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	overflow-x: scroll;
+	border: 2px dashed black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px darkgray;
+}
+
+.div-img-dsocialmedia > img {
+	height: 100%;
+}
+
+.div-img-dsocialmedia > img + img {
+	border-left: 2px solid black;
+}
+
+/**/
+
+.div-list-projetos > div {
+	padding: 30px 0;
+}
+
+.title-projetos {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.list-projetos {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 30px;
+}
+
+.list-projetos img {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	border: 2px dashed black;
+	box-shadow: 0 0 5px darkgray;
+}
+
+.list-projetos img:hover {
+	box-shadow: 0 0 10px black;
+	transition: .3s;
+}
+
+/**/
+
+.dev {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid dimgray;
+	background-color: black;
+	color: white;
+	font-size: 0.8em;
+}
+
+.dev p a {
+	color: white;
+}
+
+.dev p a:hover {
+	color: orange;
+	transition: .3s;
+}
+
+/*Whatsapp Button*/
+
+#whatsapp-button {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 30px;
+	border-radius: 100%;
+	z-index: 999;
+}
+
+#whatsapp-button:hover {
+	box-shadow: 0 0 20px #4DA829 !important;
+}
+
+#whatsapp-button > a > img {
+	width: 80px;
+	height: 80px;
+}
+
+/*Animações*/
+
+header {
+	animation: surgirCima 1.5s;
+}
+
+
+#whatsapp-button {
+	animation: surgirDireita 1s;
+	animation: shyne .5s infinite alternate;
+}
+
+.div-text-home {
+	animation: surgirEsquerda 1.5s;
+}
+
+.div-img-home {
+	animation: surgirDireita 1.5s;
+}
+
+/**/
+
+@keyframes surgirEsquerda {
+	from {
+		transform: translateX(-1000px);
+	}
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes surgirDireita {
+	from {
+		transform: translateX(1000px);
+	} 
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes surgirCima {
+	from {
+		transform: translateY(-200px);
+	}
+
+	to {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes shyne {
+	from {
+		box-shadow: 0 0 15px #4DA829;
+	}
+
+	to {
+		box-shadow: none;
+	}
+}
+
+/*Responsividade*/
+
+@media (max-width:1281px) {
+	header, #section-home, #section-sobre, #section-vantagens, #section-servicos, #section-projetos, .dev {
+		padding-right: 50px;
+		padding-left: 50px; 
+	}
+}
+
+@media (max-width:950px) {
+	.div-content-vantagens {
+		flex-wrap: wrap;
+	}
+
+	.item-vantagens {
+		margin-bottom: 30px;
+	}
+
+	/**/
+
+	.item-servicos {
+		flex-wrap: wrap;
+	}
+
+	.div-img-servico {
+		width: 100%;
+		margin: 30px 0;
+	}
+
+	.div-img-dsocialmedia {
+		width: 100%;
+		max-width: initial;
+		margin-top: 30px;
+	}
+
+	.div-img-dsocialmedia > img {
+		width: 100%;
+	}
+}
+
+@media (max-width:801px) {
+	nav > div {
+		display: none;
+	}
+
+	#div-nav-burger {
+		display: block;
+	}
+
+	/**/
+
+	.div-img-home {
+		display: none;
+	}
+
+	/**/
+
+	.div-content-sobre {
+		flex-wrap: wrap;
+	}
+
+	.div-img-sobre {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width:480px) {
+	header, #section-home, #section-sobre, #section-vantagens, #section-servicos, #section-projetos, .dev {
+		padding-right: 20px;
+		padding-left: 20px; 
+	}
+}
