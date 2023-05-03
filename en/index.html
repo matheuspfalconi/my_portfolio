@@ -7,8 +7,8 @@
 
 		<title>Matheus Falconi</title>
 
-		<link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="../generalStyle.css">
+		<link rel="stylesheet" href="../css/styleIndex.css">
+		<link rel="stylesheet" href="../css/generalStyle.css">
 		
 		<!--Google Fonts-->	
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +21,7 @@
 		<script type="text/javascript" language="javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/script.js"></script>
 		<script type="text/javascript" src="../js/smothScroll.js"></script>
+        <script type="text/javascript" src="../js/toggleMenu.js"></script>
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,290 +33,292 @@
 
 	<body>
 		<header>
-			<div class="div_logo">
-				<p class="logo">MF</p>
-			</div>
-
-			<nav>
-				<ul class="list_links">
-					<a href="#section_home"><li class="item_links">
-						<p><span class="number_link">01.</span> Home</p>
-					</li></a>
-
-					<a href="#section_sobre"><li class="item_links">
-						<p><span class="number_link">02.</span> About</p>
-					</li></a>
-
-					<a href="#section_conhecimentos"><li class="item_links">
-						<p><span class="number_link">03.</span> Knowledges</p>
-					</li></a>
-
-					<a href="#section_servicos"><li class="item_links">
-						<p><span class="number_link">04.</span> Services</p>
-					</li></a>
-
-					<a href="#section_projetos"><li class="item_links">
-						<p><span class="number_link">05.</span> Projects</p>
-					</li></a>
-				</ul>
-
-				<div class="button_contact">
-					<p>Contact</p>
+			<div id="div-header">
+				<div class="div-logo">
+					<p class="logo">MF</p>
 				</div>
 
-				<div class="div_translate">
-					<span class="material-symbols-outlined" onclick="openLanguage()">translate</span>
+				<nav>
+					<div>
+						<ul class="list-links">
+							<a href="#section-home"><li class="item-links">
+								<p><span class="number-link">01.</span> Home</p>
+							</li></a>
 
-					<div id="choice_language" class="hidden">
-						<a href="../pt/index.html"><p>PT-BR</p></a>
-						<a href="../en/index.html"><p>EN-US</p></a>
+							<a href="#section-sobre"><li class="item-links">
+								<p><span class="number-link">02.</span> About</p>
+							</li></a>
+
+							<a href="#section-servicos"><li class="item-links">
+								<p><span class="number-link">03.</span> Services</p>
+							</li></a>
+
+							<a href="#section-projetos"><li class="item-links">
+								<p><span class="number-link">04.</span> Projects</p>
+							</li></a>
+						</ul>
+
+						<a href="https://wa.me/+5531999456108" target="_blank" class="button-contact">
+							<p>Contact Me</p>
+						</a>
 					</div>
-				</div>
-			</nav>
+
+					<div class="div-translate">
+						<span class="material-symbols-outlined" onclick="openLanguage()">translate</span>
+
+						<div id="choice-language" class="hidden">
+							<a href="../pt/index.html"><p>PT-BR</p></a>
+							<a href="../en/index.html"><p>EN-US</p></a>
+						</div>
+					</div>
+				</nav>
+			</div>
 		</header>
 
 		<main>
-			<section id="section_home">
-				<div class="div_text_home">
-					<p class="text_home">Hello, my name is</p>
-					<p class="title_home">Matheus Falconi</p>
-					<p class="desc_home">Helping companies to stand out in the market in a <span class="orange_text">professional, modern</span> and <span class="orange_text">high-quality.</span> way</p>
-				</div>
+			<section id="section-home">
+				<div id="div-home">
+					<div class="div-text-home">
+						<p class="text-home">Hello there, my name is</p>
+						<p class="title-home">Matheus Falconi</p>
 
-				<div class="div_img_home">
-					<p><span><</span><span>/></span><p>
-				</div>
-			</section>
-
-			<section id="section_sobre">
-				<div class="div_title_section">
-					<h2>-- About Me --</h2>
-
-					<div class="div_citacao_sobre">
-						<p>"Everything good requires patience."</p>
-						<p>~ Gepetto</p>
-					</div>
-				</div>
-
-				<div class="div_content_sobre">
-					<div class="div_img_sobre">
-						<img src="https://avatars.githubusercontent.com/u/33550514?v=4">
+						<p class="desc-home">Helping companies to stand out in the market in a <span class="orange-text"> professional, modern and high-quality way.</span></p>
 					</div>
 
-					<div class="div_text_sobre">
-						<p>Front-End Developer, specialist in HTML/CSS and Responsive Design, with solid knowledge in Javascript and good experience with Vue.</p>
-
-						<p>Social Media Design, active in creating visual identity, managing social networks, planning content, analyzing results, creating art and content.</p>
-
-						<p>I practice my area of passion, and I'm always in constant learning, getting to know new technologies and applying them in personal projects.</p>
+					<div class="div-img-home">
+						<p><span><</span><span>/></span></p>
 					</div>
 				</div>
 			</section>
 
-			<section id="section_conhecimentos">
-				<div class="div_title_section">
-					<h2>-- Knowledges --</h2>
-				</div>
+			<section id="section-sobre">
+				<div id="div-sobre">
+					<div class="div-title-section">
+						<h2>< About Me /></h2>
 
-				<ul class="list_conhecimentos">
-					<li class="item_conhecimentos">HTML</li>
-					<li class="item_conhecimentos">CSS</li>
-					<li class="item_conhecimentos">Sass</li>
-					<li class="item_conhecimentos">Responsive Desing</li>
-					<li class="item_conhecimentos">JavaScpript</li>
-					<li class="item_conhecimentos">Vue Js</li>
-					<li class="item_conhecimentos">PHP</li>
-					<li class="item_conhecimentos">SQL</li>
-
-					<li class="item_conhecimentos">Photoshop</li>
-					<li class="item_conhecimentos">Illustrator</li>
-					<li class="item_conhecimentos">Figma</li>
-					<li class="item_conhecimentos">Canva</li>
-				</ul>
-			</section>
-
-			<section id="section_servicos">
-				<div class="div_title_section">
-					<h2>-- Marketing Solutions --</h2>
-				</div>
-
-				<div class="div_content_servicos">
-					<div class="list_servicos_esq">
-						<p id="pwebsite" class="orange_text" onmouseover="hiddeService('swebsite')">Web Site</p>
-						<p id="planding" onmouseover="hiddeService('slanding')">Landing Page</p>
-						<p id="psocial" onmouseover="hiddeService('ssocial')">Design Social Media</p>
-						<p id="pidvisual" onmouseover="hiddeService('sidvisual')">Visual Identity</p>
+						<div class="div-citacao-sobre">
+							<p>"Everything good requires patience."</p>
+							<p>~ Gepetto</p>
+						</div>
 					</div>
 
-					<div class="list_servicos_dir">
-						<div class="item_servico" id="servico_website">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">devices</span>
+					<div class="div-content-sobre">
+						<div class="div-img-sobre">
+							<img src="https://avatars.githubusercontent.com/u/33550514?v=4">
+						</div>
 
-								<p>Web Site</p>
+						<div class="div-text-sobre">
+							<div class="text-sobre">
+								<p>Front-End Developer, specialist in HTML/CSS and Responsive Design, with solid knowledge in Javascript and good experience with Vue.</p>
+
+								<p>Social Media Design, active in the creation of visual identity, management of social networks, content planning, analysis of results, creation of arts and contents.</p>
+
+								<p>I practice my area of passion, and I am always in constant learning, getting to know new technologies and applying them in personal projects.</p>
 							</div>
-							
-							<div class="desc_servico">
+
+							<div class="button-sobre">
+								<a href="https://wa.me/+5531999456108" target="_blank"><button>Contact Me!</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-vantagens">
+				<div class="div-title-section">
+					<h2>< Differentials /></h2>
+
+					<div class="div-citacao-sobre">
+						<p>Pampering customers!</p>
+					</div>
+				</div>
+
+				<div class="div-content-vantagens">
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">design_services</span>
+
+						<p>Original Design</p>
+					</div>
+
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">devices</span>
+
+						<p>Responsiveness and Usability</p>
+					</div>
+
+					<div class="item-vantagens">
+						<span class="material-symbols-outlined">social_leaderboard</span>
+
+						<p>Focus on Quality</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-servicos">
+				<div id="div-servicos">
+					<div class="div-title-section">
+						<h2>< Marketing Solutions /></h2>
+
+						<div class="div-citacao-sobre">
+							<p>Discover the services provided!</p>
+						</div>
+					</div>
+
+					<div class="div-content-servicos">
+						<div class="item-servicos">
+							<div class="text-item-servico">
+								<p class="title-item">Web Sites</p>
+
 								<p>I create your website in a personalized way, so that it comes out the way you want. The layout and features are made responsive and according to your needs.</p>
 
-								<p class="title_desc_servico">Do I need a website for my business?</p>
+								<p class="orange-text">Do I need a website for my business?</p>
 
 								<p>Having a website is important for you who need to show your company to the world in an attractive and functional way.</p>
+
+								<p class="orange-text">Want to know more about my services?</p>
+
+								<p>You can choose to send an email to: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> or click the button below:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Request an Estimate Now!
+									</a>
+								</div>
 							</div>
+
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-servico">
+								<img src="../galeria/site-arawauka1.png">
+							</div></a>
 						</div>
 
-						<div class="item_servico hidden" id="servico_landing">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">flight_land</span>
+						<div class="div-line">
+							<div class="line"></div>
+						</div>
 
-								<p>Landing Page</p>
-							</div>
+						<div class="item-servicos">
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-servico">
+								<img src="../galeria/landing-page1.png">
+							</div></a>
 
-							<div class="desc_servico">
+							<div class="text-item-servico">
+								<p class="title-item">Landing Page</p>
+
 								<p>I create your landing page in a personalized way, so that it comes out the way you want. The layout and features are made responsive and according to your needs.</p>
 
-								<p class="title_desc_servico">Do I need a landing page for my business?</p>
+								<p class="orange-text">Do I need a landing page for my business?</p>
 
-								<p>Having a landing page is important for you, who need to convert your potential customer into a customer, in an attractive and functional way.</p>
+								<p>Having a landing page is important for you who need to convert your possible customer (your Lead) into a customer, in an attractive and functional way.</p>
+
+								<p class="orange-text">Want to know more about my services?</p>
+
+								<p>You can choose to send an email to: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> or click the button below:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Request an Estimate Now!
+									</a>
+								</div>
 							</div>
 						</div>
 
-						<div class="item_servico hidden" id="servico_social">
-							<div class="title_servico">
-								<span class="material-symbols-outlined img_servico">design_services</span>
+						<div class="div-line">
+							<div class="line"></div>
+						</div>
 
-								<p>Design Social Media</p>
+						<div class="item-servicos">
+							<div class="text-item-servico">
+								<p class="title-item">Designer Social Media</p>
+
+								<p>I manage all your social media. Market studies, competition and trends according to your niche; Profile creation and customization; Creation of content to be shared with your audience.</p>
+
+								<p class="orange-text">In which social networks is it important to be present?</p>
+
+								<p>It's important to understand which social networks are ideal for your business and always be present on them. We also help in this process.</p>
+
+								<p class="orange-text">Want to know more about my services?</p>
+
+								<p>You can choose to send an email to: <a href="mailto:atendimento@spotlightagencia.com.br">atendimento@spotlightagencia.com.br</a> or click the button below:</p>
+
+								<div class="div-button-servico">
+									<a href="https://wa.me/+5531999456108" target="_blank" class="button-servico">
+										Request an Estimate Now!
+									</a>
+								</div>
 							</div>
 
-							<div class="desc_servico">
-								<p>I do all the management of your social networks, from creating and customizing your profile to creating content to be shared with your audience.</p>
+							<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><div class="div-img-dsocialmedia">
+								<img src="../galeria/post-1.png">
+								<img src="../galeria/post-2.png">
+								<img src="../galeria/post-3.png">
+								<img src="../galeria/post-4.png">
+							</div></a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-								<p class="title_desc_servico">In which social networks is it important to be present?</p>
+			<section id="section-projetos">
+				<div id="div-projetos">
+					<div class="div-title-section">
+						<h2>< Discover My Projects /></h2>
 
-								<p>It's important to understand which social networks are ideal for your business and always be present on them. We also assist in this process.</p>
+						<div class="div-citacao-sobre">
+							<p>A little more of my work!</p>
+						</div>
+					</div>
+
+					<div class="div-list-projetos">
+						<div class="div-sites">
+							<div class="title-projetos">
+								<p class="title-item">Web Sites</p>
+							</div>
+
+							<div class="list-projetos">
+								<a href="https://matheuspfalconi.github.io/Site_Agencia_Spotlight/" target="_blank"><img src="../galeria/site-spotlight.png"></a>
+
+								<a href="https://matheuspfalconi.github.io/Site_Arawauka/" target="_blank"><img src="../galeria/site-arawauka.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Advocacy" target="_blank"><img src="../galeria/site-advocacia.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Galleria" target="_blank"><img src="../galeria/site-galleria.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Cotemig" target="_blank"><img src="../galeria/site-cotemig.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Site_Alura" target="_blank"><img src="../galeria/site-alura.png"></a>
 							</div>
 						</div>
 
-						<div class="item_servico hidden" id="servico_idvisual">
-							<div class="title_servico">
-								<span class="material-symbols-outlined">badge</span>
-
-								<p>Visual Identity</p>
+						<div class="div-landing">
+							<div class="title-projetos">
+								<p class="title-item">Landing Pages</p>
 							</div>
-							
-							<div class="desc_servico">
-								<p>I create the visual identity of your brand in a conceptual, attractive, professional and commercial way. All use of fonts and colors is based on research into all aspects of your industry.</p>
 
-								<p class="title_desc_servico">Do I need a visual identity?</p>
+							<div class="list-projetos">
+								<a href="https://matheuspfalconi.github.io/Landing_Page_Travel_Blog/" target="_blank"><img src="../galeria/landing-page1.png"></a>
 
-								<p>One of the main reasons for creating a visual identity is that with it, it is possible to visually and practically define who your company is.</p>
+								<a href="https://github.com/matheuspfalconi/Landing_Page_Cursos_On" target="_blank"><img src="../galeria/landing-page2.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Clone_Landing_Page_Shopify" target="_blank"><img src="../galeria/landing-page3.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Landing_Page_Black_Friday" target="_blank"><img src="../galeria/landing-page4.png"></a>
+
+								<a href="https://github.com/matheuspfalconi/Login_Page_Sunset" target="_blank"><img src="../galeria/landing-page5.png"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section id="section_projetos">
-				<div class="div_title_section">
-					<h2>-- My Projects --</h2>
-				</div>
-
-				<div class="div_content_projetos">
-					<div class="list_projetos">
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-
-						<div class="item_projeto">
-							<div class="img_projeto"></div>
-
-							<div class="div_title_projeto" id="project_timer">
-								<p class="title_projeto">Teste</p>
-								<span class="material-symbols-outlined">expand_less</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<div id="whatsapp-button">
+				<a href="https://wa.me/+5531999456108" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"></a>
+			</div>
 		</main>
 
-		<footer></footer>
+		<footer>
+			<div class="dev">
+				<p>©2023 - MATHEUS FALCONI</p>
+				<p>DEVELOPED BY <a href="https://github.com/matheuspfalconi" target="_blank">MATHEUS FALCONI ❤</a></p>
+			</div>
+		</footer>
 	</body>
 </html>
