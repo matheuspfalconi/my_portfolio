@@ -1,0 +1,345 @@
+/*Loading*/
+
+#div-loading {
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	background-image: url('../galeria/animacao-logo.gif');
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: center;
+}
+
+#content-home {
+	display: none;
+}
+
+
+/*Main*/
+
+body {
+	background-image: url('https://img.freepik.com/free-photo/aerial-view-landscape-covered-tall-green-trees_181624-31259.jpg?t=st=1677425468~exp=1677426068~hmac=26ea2804e849827ca3f61d4c6f1672db9ce3c057db79a56fb5e177432ddf761b');
+	background-size: cover;
+	background-attachment: fixed;
+	color: #12232F;
+}
+
+#section-banner {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	padding-top: 65px;
+	background-size: cover;
+	background-position: top;
+
+	background-color: rgba(18, 54, 47, .8);
+	color: #12232F;
+}
+
+#section-banner > div {
+	justify-content: center;
+}
+
+.div-text-banner {
+	width: 100%;
+	max-width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px;
+	text-align: center;
+}
+
+.title-banner {
+	width: 100%;
+	font-size: 1.825em;
+	color:  #fca856;
+}
+
+.text-banner {
+	width: 100%;
+	margin: 15px 0;
+	font-size: 0.825em;
+	line-height: 25px;
+	color: white;
+}
+
+.button-sobre {
+	width: 120px;
+	height: 35px;
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fca856;
+	border-radius: 5px;
+	background-color: #fca856;
+	font-size: 1em;
+	color: #12232F;
+}
+
+.button-sobre:hover {
+	background: none;
+	color: #FEFEFE;
+	transition: background .3s;
+}
+
+/**/
+
+#section-solucoes {
+	width: 100%;
+	background-color: #FEFEFE;	
+}
+
+#section-solucoes > div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.content-solucoes {
+	width: 100%;
+	max-width: 700px;
+}
+
+/**/
+
+#section-atuacao {
+	width: 100%;
+	background-color: #FEFEFE;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
+}
+
+#section-atuacao > div {
+	justify-content: center;
+}
+
+.content-atuacao {
+	width: 100%;
+}
+
+.list-atuacao {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 15px;
+}
+
+.item-atuacao {
+	width: 100%;
+	max-width: 300px;
+	min-width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid dimgray;
+	border-radius: 5px;
+	margin-top: 115px;
+	text-align: center;
+	padding: 20px;
+	background-color: #12362F;
+	border: 2px solid #12362F;
+	color: white;
+}
+
+.item-atuacao:hover {
+	background: none;
+	color: black;
+	box-shadow: 0 0 10px black;
+	transition: background .3s;
+}
+
+.item-atuacao > img {
+	width: 150px;
+	margin-top: -100px;
+	position: absolute;
+}
+
+.item-atuacao > p {
+	margin-top: 80px;
+	width: 100%;
+}
+
+/**/
+
+#section-diferencial {
+	width: 100%;
+	background-color: rgba(18, 54, 47, .6);
+	color: #FEFEFE;
+}
+
+#section-diferencial > div {
+	display: flex;
+	justify-content: center;
+}
+
+.content-diferencial {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 15px;
+}
+
+.item-diferencial {
+	width: 100%;
+	min-width: 300px;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, .3);
+	flex: 1;
+}
+
+.item-diferencial:hover {
+	box-shadow: 0 0 10px black;
+}
+
+.item-diferencial > img {
+	width: auto;
+	height: 100px;
+	padding: 10px 0;
+}
+
+.item-diferencial p {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid dimgray;
+}
+
+/**/
+
+#section-servicos {
+	width: 100%;
+	background-color: #FEFEFE;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
+	overflow-x: hidden;
+}
+
+.content-servicos {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 15px;
+	overflow-x: hidden;
+}
+
+.item-servicos {
+	width: 300px;
+	height: 400px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+	color: #FEFEFE;
+	font-size: 1.225em;
+
+	background-color: rgba(45, 145, 128, 1);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+	cursor: pointer;
+	z-index: 1;
+}
+
+.item-servicos:hover {
+	box-shadow: 0 0 10px black;
+	background-color: rgba(45, 145, 128, .4);
+}
+
+.item-servicos > p {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 260px;
+}
+
+#serv-gestao {background-image: url('https://img.freepik.com/free-photo/consulting-with-lawyer_1098-19616.jpg?w=740&t=st=1677513083~exp=1677513683~hmac=cb83399ef6a2997f2e56becb3e9286da7b81677ea9c9d4f656cbe66b50562dfa');}
+#serv-gerenciamento {background-image: url('https://img.freepik.com/free-photo/researchers-looking-alternative-energy-souces_23-2149311443.jpg?w=740&t=st=1677514464~exp=1677515064~hmac=2c632e0623f01136ef2f47d7760982e67eca71d6747492f780adfb76e40bf2d7');}
+#dir-ambiental {background-image: url('https://img.freepik.com/free-photo/crop-woman-office_23-2147727610.jpg?w=360&t=st=1678076434~exp=1678077034~hmac=c4b71d2b91a389f7d44134b0a593e804b9217d8d9fa980c310ea147bb9c3af69')}
+#serv-conservacionistas {background-image: url('https://img.freepik.com/free-photo/elderly-person-children-holding-plant_1150-18573.jpg?w=740&t=st=1677514536~exp=1677515136~hmac=808a866193cfca42edb8d6fff6514682367c01d45fee2037051b8218034ff54b');}
+#serv-complementares {background-image: url('https://img.freepik.com/free-photo/businesspeople-meeting-plan-analysis-graph-company-finance-strat_74952-1347.jpg?w=996&t=st=1677514585~exp=1677515185~hmac=d9c1bccdcced60b31debd020503760c0b7eb3215163be7ad5160ae29f4d31c73');}
+#serv-audio {background-image: url('https://img.freepik.com/free-photo/aerial-view-blue-sky-with-white-clouds-floating-fields_181624-60374.jpg?w=740&t=st=1677514622~exp=1677515222~hmac=60f5b2308638465220c682a9c8c7b082b588c4b8f4ada638eba58e3e8b2a14ad');}
+
+/**/
+
+#section-parceiros {
+	width: 100%;
+	background-color: #FEFEFE
+}
+
+.list-parceiros {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 15px;
+}
+
+.item-parceiro {
+	width: 200px;
+	height: 100px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.item-parceiro:hover {
+	box-shadow: 0px 0px 10px gray;
+}
+
+#tubo-filmes {background-image: url('../galeria/parceiros/tuboFilmes-logo.png');}
+
+#lm-advocacia {
+	background-image: url('../galeria/parceiros/lmAdvogados-logo.png');
+	background-size: 150%;
+}
+
+#grupo_zago {
+    background-image: url('../galeria/parceiros/grupo_zago.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Responsividade*/
+
+@media(max-width: 820px) {
+	.content-diferencial {
+		justify-content: center;
+	}
+}
+
+@media(max-width: 600px) {
+	.title-banner {
+		font-size: 1.5em;
+	}
+}
+
+@media(max-width: 574px) {
+	.item-atuacao {
+		max-width: 300px;
+	}
+
+	.item-diferencial {
+		max-width: 300px;
+	}
+}
+
+@media(max-width: 380px) {
+
+	.title-banner {
+		font-size: 1.225em;
+	}
+}
